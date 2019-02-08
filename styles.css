@@ -1,9 +1,23 @@
 .body{
-	 max-width: 500px;
-  margin: auto;
-  padding: 24px;
+	max-width: 500px;
+  	margin: auto;
+ 	padding: 24px;
 }
+
 .navbar{
 	width: 100vw;
+
+}
+
+img{
+float: left;
+
+}
+
+.nav-button{
+	border: 3px;
+	border-color: #ea6624;
+	color: #ea6624;
+	font-family: arial;
 
 }
