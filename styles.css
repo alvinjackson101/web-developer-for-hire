@@ -43,12 +43,13 @@
 
 .header-content{
 	
-	margin: 24px;
+	margin: 12px;
 
 }
 
 .h1{
 	
+	margin-bottom: 0px;
 	text-align: center;
 	font-family: Helvetica Neue, arial;
 	font-size: 72px;
@@ -60,6 +61,8 @@
 	text-align: center;
 	font-family: Helvetica Neue, arial;
 	font-size: 100%;
+	font-weight: light;
+	padding: 24px 0px 8px 0px;
 
 }
 
@@ -68,9 +71,9 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 200px;
+	width: 250px;
 	height: auto;
-	padding: 42px 0px 24px 0px;
+	padding: 42px 0px 0px 0px;
 }
 
 .background{
@@ -79,7 +82,7 @@
 	max-width: 200% !important;
 	color: white;
 	font-family: Helvetica Neue, arial;
-	height: 400px;
+	height: 500px;
 	font-size: 100%;
 	margin-top: -12px;
 
@@ -88,11 +91,14 @@
 
 .background-content{
 
-	max-width: 70%;
+	max-width: 50%;
 	text-align: center;
 	padding: 64px;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 1em;
+	line-height: 2;
+	font-weight: 300;
 
 }
 
@@ -105,4 +111,60 @@
 	margin-left: auto;
 	margin-right: auto;
 
+}
+
+.columns{
+
+	max-width: 50%;
+	min-height: 750px;
+	text-align: center;
+	padding: 64px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -100px;
+	background-color: white;
+	border-radius: 12px 0px 0px 12px;
+	border-bottom-color:#e2e2e2;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color: #e2e2e2;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #e2e2e2;
+	box-sizing: border-box;
+	display: block;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 24px;
+	padding-bottom: 70px;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 70px;
+	text-align: center;
+	width: 400px;
+
+}
+
+.h2-column{
+
+	text-align: center;
+	font-family: Helvetica Neue, arial;
+	font-size: 2em;
+	font-weight: light;
+	padding: 0px 0px 0px 0px;
+
+}
+
+.ul{
+
+	list-style: none;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+	font-family: Helvetica Neue, arial;
+	font-size: 100%;
+	font-weight: light;
+	padding: 0px 0px 0px 0px;
 }
