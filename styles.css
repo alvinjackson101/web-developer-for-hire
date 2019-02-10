@@ -82,9 +82,10 @@
 	max-width: 200% !important;
 	color: white;
 	font-family: Helvetica Neue, arial;
-	height: 500px;
+	height: 450px;
 	font-size: 100%;
 	margin-top: -12px;
+	margin-bottom: auto;
 
 
 }
@@ -252,8 +253,9 @@
 
 }
 
-#email{
+.link{
 
+	font-family: Helvetica Neue, arial;
 	text-decoration: none;
 	color: #a84343;
 }
@@ -328,3 +330,37 @@ span.work1, span.work2, span.work3, span.work4, span.work5, span.work6{
 	margin-top: 120px;
 	margin-bottom: 42px;
 }
+
+.column-startup{
+
+	max-width: 50%;
+	min-height: 300px;
+	text-align: center;
+	padding: 64px 0px 64px 0px;
+	margin-left: auto;
+	margin-right: 0px;
+	margin-top: -125px;
+	background-color: white;
+	border-radius: 12px;
+	border-color:#e2e2e2;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 24px;
+	padding-bottom: 70px;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 70px;
+	width: 400px;
+	box-shadow: 0px 2px 8px #e2e2e2;
+
+}
+ .startup-img{
+
+ 	width: 50%;
+ }
+
+
