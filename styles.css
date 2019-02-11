@@ -319,7 +319,7 @@ span.work1, span.work2, span.work3, span.work4, span.work5, span.work6{
 
 .awesome-companies{
 
-	border-top: 1px solid #E6ECF8;
+	border-color: #E6ECF8;
     border-top-width: 1px;
     border-top-style: solid;
     text-align: center;
@@ -362,5 +362,65 @@ span.work1, span.work2, span.work3, span.work4, span.work5, span.work6{
 
  	width: 50%;
  }
+
+ .collaborating{
+
+    border-top-width: 0px;
+    border-top-style: solid;
+    text-align: center;
+	font-family: Helvetica Neue, arial;
+	font-size: 1em;
+	font-weight: light;
+	padding: 0px 0px 42px 0px;
+	margin-top: 120px;
+	margin-bottom: 42px;
+
+}
+
+.conversation-button{
+
+	border-radius: 80px;
+	border: 3px solid #302f2f;
+	color: #302f2f;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 100%;
+	font-family: arial;
+	margin-top: 52px;
+	margin-bottom: 120px;
+
+
+}
+
+.conversation-button:hover{
+
+	background-color: #302f2f;
+	color: white;
+}
+
+.testimonials{
+
+   	border-color: #E6ECF8;
+    border-top-width: 1px;
+    border-top-style: solid;
+    text-align: center;
+	font-family: Helvetica Neue, arial;
+	font-size: 1em;
+	font-weight: light;
+	padding: 0px 0px 42px 0px;
+	margin-top: 150px;
+
+}
+
+.h2-testi{
+
+	text-align: center;
+	font-family: Helvetica Neue, arial;
+	font-size: 2em;
+	font-weight: light;
+	padding: 150px 0px 0px 0px;
+
+}
 
 
