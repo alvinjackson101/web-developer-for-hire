@@ -8,7 +8,7 @@
 .navbar{
 	
 	width: 100%;
-	padding: 12px;
+	padding: 8px;
 	overflow: hidden;
 	top: 0;
 	background-color: white;
@@ -16,8 +16,9 @@
 	border-bottom-style: solid;
 	border-color: #eaeaea;
 	position: fixed;
-	box-shadow: 0px 1px 4px #aaa9a9;
+	/*box-shadow: 0px 1px 4px #aaa9a9;*/
 	margin-left: -12px;
+
 
 }
 
@@ -26,7 +27,7 @@
 	width: 10%;
 	height:auto;
 	float: left;
-	padding: 12px;
+	padding: 8px;
 
 }
 
@@ -42,6 +43,8 @@
 	font-family: arial;
 	float: right;
 	margin-right: 54px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 
 }
 
@@ -61,7 +64,7 @@
 .h1{
 	
 	margin-bottom: 0px;
-	margin-top:120px;
+	margin-top:200px;
 	text-align: center;
 	font-family: Roboto, Helvetica Neue, arial;
 	font-size: 64px;
