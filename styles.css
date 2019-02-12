@@ -1,22 +1,23 @@
 #page-layout{
-	/*max-width: 70%;*/
-  	margin: auto;
+	max-width: 100%;
+  	margin: -12px;
   	background: white;
   	/*padding:0px;*/
 }
 
 .navbar{
 	
-	max-width: 100%;
-	padding: 10px 54px 10px 54px;
+	width: 100%;
+	padding: 12px;
 	overflow: hidden;
-	top: 0%;
+	top: 0;
 	background-color: white;
 	border-bottom: 1px;
 	border-bottom-style: solid;
 	border-color: #eaeaea;
 	position: fixed;
 	box-shadow: 0px 1px 4px #aaa9a9;
+	margin-left: -12px;
 
 }
 
@@ -40,6 +41,7 @@
 	font-size: 100%;
 	font-family: arial;
 	float: right;
+	margin-right: 54px;
 
 }
 
@@ -62,7 +64,7 @@
 	margin-top:120px;
 	text-align: center;
 	font-family: Roboto, Helvetica Neue, arial;
-	font-size: 72px;
+	font-size: 64px;
 
 }
 
